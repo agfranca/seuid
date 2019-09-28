@@ -66,7 +66,7 @@
     <body>
 
 
-        <!-- Compiled and minified CSS -->
+    <!-- Compiled and minified CSS -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <!-- Compiled and minified JavaScript -->
@@ -90,7 +90,7 @@
                 </div>
             @endif
 
-            <div class="content">
+            <div class="content container">
                 <div class="title m-b-md">
                 <strong>Seu Código de Participação</strong>
                 <input style="font-size: 45px; text-align: center"; " type="text" id="link" class="validate" name="link" value={{$codigo}} >
