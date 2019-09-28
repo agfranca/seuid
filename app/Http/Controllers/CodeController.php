@@ -34,7 +34,8 @@ class CodeController extends Controller
 
 
     	}else{
-    	dd('Não é Válido');	
+    	return view('naoencontrado');
+    	//dd('Não é Válido');	
     	}
     }
 

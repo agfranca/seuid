@@ -91,31 +91,10 @@
             @endif
 
             <div class="content container">
-                <div>
-                <h2><strong>Seu Código de Participação</strong></h2>
-                <input style="font-size: 40px; text-align: center"; " type="text" id="link" class="validate" name="link" value={{$codigo}} >
-                </div>
-                <div>
-                <p><strong>
-                    Com a finalidade de preservar a identidade de cada participante o código único e intransferível para ser usados no Envelope do Remetente, do envelope I (Proposta Arquitetônica), envelope II (Documentos de Habilitação) e endereço do destinatário, conforme disposto no Instrumento Convocatório, porém cada licitante será identificada por apenas um único código.
-                </strong></p>
-                </div>
-
-                <div class="links">
-                    <button class="btn waves-effect waves-light" onClick="copiarTexto()">Copiar Código</button>
-
-                    <a style="color: white;" class="btn waves-effect waves-light" href='PDF/{{$codigo}}'>Baixar PDF</a>
+                <div class="m-b-md">
+                <h2><strong>Seu Código Não foi Encontrado</strong></h2>
                 </div>
             </div>
-        </div>
-
-        <script>
-    function copiarTexto() {
-        var textoCopiado = document.getElementById("link");
-        textoCopiado.select();
-        document.execCommand("Copy");
-        //alert("Texto Copiado: " + textoCopiado.value);
-    }
     </script>
     </body>
 </html>
