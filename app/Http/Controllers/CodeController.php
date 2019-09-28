@@ -30,8 +30,7 @@ class CodeController extends Controller
     	 return \PDF::loadView('pdf', compact('codigo'))
                 // Se quiser que fique no formato a4 retrato: ->setPaper('a4', 'landscape')
     	 		->setPaper('a4', 'landscape')
-                ->download($nomeArquivo.'.pdf');
-
+                ->stream($nomeArquivo.'.pdf');
 
 
     	}else{
