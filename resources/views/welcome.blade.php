@@ -91,9 +91,9 @@
             @endif
 
             <div class="content container">
-                <div class="title m-b-md">
-                <strong>Seu Código de Participação</strong>
-                <input style="font-size: 45px; text-align: center"; " type="text" id="link" class="validate" name="link" value={{$codigo}} >
+                <div class="m-b-md">
+                <h2><strong>Seu Código de Participação</strong></h2>
+                <input style="font-size: 40px; text-align: center"; " type="text" id="link" class="validate" name="link" value={{$codigo}} >
                 </div>
                 <div>
                 <p><strong>
