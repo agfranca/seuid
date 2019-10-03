@@ -49,4 +49,12 @@ class CodeController extends Controller
     	return false;	
     	}
     }
+
+    public function relatorio()
+    {
+
+    $codigos = Code::where('created_at', '>=', '2019-09-30')->get();
+    //dd($codigo);
+    return view('relatorio', compact('codigos'));
+    }
 }

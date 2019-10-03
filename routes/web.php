@@ -17,3 +17,4 @@
 
 Route::get('/', 'CodeController@index')->name('home');
 Route::get('/PDF/{code}', 'CodeController@pdf')->name('pdf');
+Route::get('/relatorio', 'CodeController@relatorio')->name('relatorio');
